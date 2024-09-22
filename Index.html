@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="calculator-contain">
+    <h1>Simple Calculator</h1>
+    <input type="text" id="expression" placeholder="Enter Your Values (10 +7)"/>
+   <button id="calculateBtn"> Calculate</button>
+   <p>Result : <span id="result">0</span></p>
+   <button id="calculateBtn" onclick="document.getElementById('expression').value=''; document.getElementById('result').textContent='';">Reset</button>
+</div>
+    <script src="Script.js"></script>
+    <p>&copy; 2024 Your Name or Your Company</p>
+</body>
+</html>
